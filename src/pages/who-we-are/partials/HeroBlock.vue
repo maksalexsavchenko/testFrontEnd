@@ -34,9 +34,9 @@
       <div class="cards-main">
         <div class="card">
 
-          <div class="card-tittle">
+          <div class="card-title">
             1000000+ <br>transactions
-            <div class="card-tittle-desc">
+            <div class="card-title-desc">
               Swapuz provides the best <br>exchange rate and transparent <br>fee structure with no hidden fee.
             </div>
           </div>
@@ -47,9 +47,9 @@
         <!--      !!! card 2 !!!-->
         <div class="card2">
 
-          <div class="card-tittle">
+          <div class="card-title">
             11387 users <br>trust us
-            <div class="card-tittle-desc">
+            <div class="card-title-desc">
               Users stay with us as Swapuz<br> strives to meet and support<br> everyone's unique needs
             </div>
           </div>
@@ -60,9 +60,9 @@
         <!--      !!!card3!!!-->
         <div class="card3">
 
-          <div class="card-tittle">
+          <div class="card-title">
             48 patrners <br>growth with us
-            <div class="card-tittle-desc">
+            <div class="card-title-desc">
               Swapuz offers comprehensive<br> solutions and set of tools to meet<br> the needs of partners fee.
             </div>
           </div>

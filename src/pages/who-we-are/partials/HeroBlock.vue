@@ -1,15 +1,16 @@
 <template>
   <div class="hero-block">
+    <img src="../../../assets/images/svg/hero-bg.svg" alt="hero-bg" class="hero-block_bg">
     <div class="container">
       <div class="block-holder">
         <div class="hero-block_text">
           Who <span>we</span> are?
           <div class="hero-block_text--item">
-            Swapuz is a fast, unlimited and fully transparent cryptocurrency <br> exchange created in 2019 by a team
+            Swapuz is a fast, unlimited and fully transparent cryptocurrency exchange created in 2019 by a team
             of
-            professionals that aims to <br> provide its users with a unique cryptocurrency exchange experience by<br>
+            professionals that aims to provide its users with a unique cryptocurrency exchange experience by
             creating an
-            intuitive, simple and user-friendly interface for institutional<br> traders and beginners. Don't bother
+            intuitive, simple and user-friendly interface for institutional traders and beginners. Don't bother
             with
             CEX
             and DEX - use Swapuz.
@@ -17,14 +18,18 @@
           <div class="hero-block_text--next">
             Our mission
             <div class="hero-block_text--next-item">
-              The user always comes first for us, that's why the main mission of <br>Swapuz is to be a reliable provider
+              The user always comes first for us, that's why the main mission of Swapuz is to be a reliable provider
               of
-              exchange products and other <br>services for users of the cryptocurrency ecosystem.
+              exchange products and other services for users of the cryptocurrency ecosystem.
             </div>
           </div>
         </div>
-        <div class="exchange">
-          <img src="../../../assets/images/svg/Exchange.png" alt="">
+        <div class="hero-block-image">
+          <img
+              srcset="../../../assets/images/png/hero-image1x.png 1x,
+               ../../../assets/images/png/hero-image2x.png 2x,
+               ../../../assets/images/png/hero-image4x.png 4x"
+              src="../../../assets/images/png/hero-image2x.png" alt="hero-image">
         </div>
       </div>
     </div>
@@ -41,7 +46,13 @@
             </div>
           </div>
           <div class="card-image">
-            <img class="card-img" src="../../../assets/images/png/Vector.png" alt="vector">
+            <div class="card-img">
+              <img
+                  srcset="../../../assets/images/png/1vector.png
+               ../../../assets/images/png/1vector2x.png 2x,
+               ../../../assets/images/png/1vector4x.png 4x"
+                  src="../../../assets/images/png/1vector2x.png" alt="vector1">
+            </div>
           </div>
         </div>
         <!--      !!! card 2 !!!-->
@@ -54,7 +65,13 @@
             </div>
           </div>
           <div class="card-image">
-            <img class="card-img" src="../../../assets/images/png/Vector2.png" alt="vector">
+            <div class="card-img">
+              <img
+                  srcset="../../../assets/images/png/2vector.png
+               ../../../assets/images/png/2vector2x.png 2x,
+               ../../../assets/images/png/2vector4x.png 4x"
+                  src="../../../assets/images/png/2vector.png" alt="vector2">
+            </div>
           </div>
         </div>
         <!--      !!!card3!!!-->
@@ -67,7 +84,13 @@
             </div>
           </div>
           <div class="card-image">
-            <img class="card-img" src="../../../assets/images/png/Vector3.png" alt="vector">
+            <div class="card-img">
+              <img
+                  srcset="../../../assets/images/png/3vector.png
+               ../../../assets/images/png/3vector2x.png 2x,
+               ../../../assets/images/png/3vector4x.png 4x"
+                  src="../../../assets/images/png/3vector2x.png" alt="vector3">
+            </div>
           </div>
         </div>
       </div>

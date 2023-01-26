@@ -1,0 +1,29 @@
+.features-block {
+  padding-top: 120px;
+
+  .block-holder {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &_text {
+    max-width: 480px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+
+    span {
+      color: #02C076;
+    }
+
+    &--item {
+      margin-top: 24px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+}
+

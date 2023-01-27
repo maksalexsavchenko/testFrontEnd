@@ -25,5 +25,59 @@
       line-height: 22px;
     }
   }
+
+  .block-holder-2nd {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+
+  &_text-2nd {
+    max-width: 480px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+
+    span {
+      color: #02C076;
+    }
+
+    &--item {
+      margin-top: 24px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  .block-holder-3nd {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 96px;
+    margin-bottom: 150px;
+  }
+
+  &_text-3nd {
+    max-width: 480px;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+
+    span {
+      color: #02C076;
+    }
+
+    &--item {
+      margin-top: 24px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
 }
 

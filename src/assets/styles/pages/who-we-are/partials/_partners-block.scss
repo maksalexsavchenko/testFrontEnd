@@ -1,0 +1,26 @@
+.partners-block {
+
+  &_text {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+  }
+
+  &_image {
+    display: flex;
+    justify-content: center;
+
+    &_img {
+      width: 717px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+    }
+  }
+}

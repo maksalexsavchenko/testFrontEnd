@@ -1,0 +1,70 @@
+.info-block {
+  background: #29282A;
+  border-radius: 24px 24px 0 0;
+  height: 320px;
+
+  .block-holder {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &_logo {
+    padding-top: 48px;
+    padding-bottom: 32px;
+  }
+  &_text {
+    width: 404px;
+    height: 44px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  &_desc {
+    color: rgba(255, 255, 255, 0.38);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    &_item {
+      margin-left: 32px;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #02C076;
+    }
+  }
+  &_main {
+
+  }
+  &_second {
+    margin-top: 48px;
+    display: flex;
+    gap: 48px;
+
+    &-company {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.38);
+
+      &-about {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        font-weight: 700;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+
+      &-contact {
+        font-weight: 700;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+    }
+  }
+}

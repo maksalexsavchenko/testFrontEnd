@@ -3,6 +3,7 @@
     <hero-block/>
     <features-block/>
     <partners-block/>
+    <info-block/>
   </div>
 </template>
 
@@ -10,10 +11,11 @@
 import HeroBlock from "@/pages/who-we-are/partials/HeroBlock.vue";
 import FeaturesBlock from "@/pages/who-we-are/partials/FeaturesBlock";
 import PartnersBlock from "@/pages/who-we-are/partials/PartnersBlock";
+import InfoBlock from "@/pages/who-we-are/partials/InfoBlock";
 
 export default {
   name: "WhoWeAre",
-  components: {PartnersBlock, FeaturesBlock, HeroBlock}
+  components: {InfoBlock, PartnersBlock, FeaturesBlock, HeroBlock}
 }
 </script>
 
